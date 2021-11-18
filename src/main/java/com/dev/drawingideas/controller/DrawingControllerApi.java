@@ -12,6 +12,7 @@ public class DrawingControllerApi {
     @GetMapping("/getideas/{text}")
     public String getIdeas(@PathVariable String text) {
         System.out.println("Your idea is :" + text);
+        System.out.println("Exit");
         return text;
     }
 }
